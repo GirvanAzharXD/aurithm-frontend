@@ -2,7 +2,7 @@ import React, { useState, useEffect, useRef } from 'react';
 import axios from 'axios';
 import './App.css';
 import { createBrowserHistory } from 'history';
-
+import { SpeedInsights } from "@vercel/speed-insights/react"
 import AppHeader from './components/Header';
 import HeroSection from './components/HeroSection';
 import UploadPage from './components/UploadPage';
@@ -245,6 +245,7 @@ function App() {
         </div>
       </main>
       <Footer onTermsClick={handleNavigateToTerms} onPrivacyClick={handleNavigateToPrivacy} />
+      <SpeedInsights />
     </div>
   );
 }
