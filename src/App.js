@@ -93,7 +93,7 @@ function App() {
     const formData = new FormData();
     formData.append('image', imageFile);
     try {
-      const response = await axios.post('http://localhost:5000/api/analyze', formData, {
+      const response = await axios.post('https://aurithm-backend-production.up.railway.app/api/analyze', formData, {
         headers: { 'Content-Type': 'multipart/form-data' },
         timeout: 180000 
       });
