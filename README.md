@@ -1,4 +1,4 @@
-# Aurithm - AI-Powere## 🚀 Demo
+# Aurithm - AI-Powered 🚀 Demo
 
 <div align="center">
   <svg width="64" height="64" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -7,8 +7,6 @@
     <circle cx="50" cy="50" r="45" stroke="#4F46E5" stroke-width="8" stroke-opacity="0.3"/>
   </svg>
 </div>
-
-Visit the live demo: [Aurithm Color Analysis](https://aurithm.vercel.app/)
 
 ## 🛠️ Tech Stacklor Analysis
 
